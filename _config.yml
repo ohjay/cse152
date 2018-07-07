@@ -1,0 +1,41 @@
+###################################
+# Site-wide configuration
+###################################
+
+title: CSE 21
+email: owen@eng.ucsd.edu
+description: Resources for Owen's CSE 21 section.
+url: https://owenjow.xyz/cse21
+keywords: ["Introduction", "Computer", "Science", "CSE", "21", "CSE21", "UCSD"]
+owner: Owen Jow
+ownersite: https://owenjow.xyz
+avatar:
+tagline: "Introduction to Computer Science"
+sidebar-desc: "Owen's section home for CSE 21 at UCSD."
+disqus-shortname: csefa18
+twitter: owenjow
+google:
+  analytics: UA-62251910-2
+  verify:
+  ad-client:
+  ad-slot:
+github: ohjay
+youtube: # username
+
+
+###################################
+# Jekyll configuration
+###################################
+
+timezone:          America/Los_Angeles
+markdown:          kramdown
+highlighter:       rouge
+excerpt_separator: <!--more-->
+permalink:         /articles/:year-:month/:title
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: false
