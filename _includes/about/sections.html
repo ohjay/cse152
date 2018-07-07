@@ -1,0 +1,9 @@
+<h2><span data-i18n="skills.my_skills">Sections</span></h2>
+
+<div class="archive">
+  <div class="timeline" id="timeline">
+    {% for section in site.data.sections_fa18 %}
+      <div class="archive-title bio"><div class="archive-year"><strong>{{ section.time }}</strong> &nbsp; {{ section.location }}</div></div>
+    {% endfor %}
+  </div>
+</div>

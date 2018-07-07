@@ -1,0 +1,25 @@
+<div class="cover-card table-cell table-middle">
+  {% if site.avatar %}
+  <img src="{{ site.url }}/img/{{ site.avatar }}" alt="" class="avatar">
+  {% endif %}
+  <a href="{{ site.url }}/" class="author_name">{{ site.title }}</a>
+  <span class="author_job">{{ site.tagline }}</span>
+  <span class="author_bio mbm">{{ site.sidebar-desc }}</span>
+  <nav class="nav">
+    <ul class="nav-list">
+      <li class="nav-item">
+        <a href="{{ site.url }}/">home</a>
+        <span>/</span>
+      </li>
+      {% for page in site.pages %} {% if page.title %}
+      <li class="nav-item">
+        <a href="{{ site.url }}{{ page.url }}">{{ page.title }}</a>
+        {% unless forloop.last %}
+          <span>/</span>
+        {% endunless %}
+      </li>
+      {% endif %} {% endfor %}
+    </ul>
+  </nav>
+  {% include social-links.html %}
+</div>

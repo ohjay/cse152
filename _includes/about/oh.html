@@ -1,0 +1,10 @@
+<div class="navy-line"></div>
+<h2><span data-i18n="skills.my_skills">Office Hours</span></h2>
+
+<div class="archive">
+  <div class="timeline" id="timeline">
+    {% for oh in site.data.oh_fa18 %}
+      <div class="archive-title bio"><div class="archive-year"><strong>{{ oh.time }}</strong> &nbsp; {{ oh.location }}</div></div>
+    {% endfor %}
+  </div>
+</div>
