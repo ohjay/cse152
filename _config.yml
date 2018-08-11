@@ -2,16 +2,16 @@
 # Site-wide configuration
 ###################################
 
-title: CSE 21
+title: CSE 152
 email: owen@eng.ucsd.edu
-description: Resources for Owen's CSE 21 section.
-url: https://owenjow.xyz/cseX
-keywords: ["Introduction", "Computer", "Science", "CSE", "21", "CSE21", "UCSD"]
+description: Resources for Owen's CSE 152 section.
+url: https://owenjow.xyz/cse152
+keywords: ["Introduction", "Computer", "Vision", "CSE", "152", "CSE152", "UCSD"]
 owner: Owen Jow
 ownersite: https://owenjow.xyz
 avatar:
-tagline: "Introduction to Computer Science"
-sidebar-desc: "Owen's section home for CSE 21 at UCSD."
+tagline: "Introduction to Computer Vision"
+sidebar-desc: "Owen's section home for CSE 152 at UCSD."
 disqus-shortname: csefa18
 twitter: owenjow
 google:
