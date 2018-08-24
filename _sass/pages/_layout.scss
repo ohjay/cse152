@@ -93,3 +93,13 @@
   font-family: 'Alegreya SC', serif;
   font-size: 3rem;
 }
+#bear {
+  position: absolute;
+  bottom: 0;
+  margin-left: calc(50vw);
+}
+@media only screen and (min-width: $medium-screen) {
+  #bear {
+    margin-left: calc(6vw + 15px) !important;
+  }
+}

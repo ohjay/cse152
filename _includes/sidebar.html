@@ -9,17 +9,16 @@
     <ul class="nav-list">
       <li class="nav-item">
         <a href="{{ site.url }}/">home</a>
+      {% for page in site.pages %} {% if page.title %}
         <span>/</span>
       </li>
-      {% for page in site.pages %} {% if page.title %}
       <li class="nav-item">
         <a href="{{ site.url }}{{ page.url }}">{{ page.title }}</a>
-        {% unless forloop.last %}
-          <span>/</span>
-        {% endunless %}
-      </li>
       {% endif %} {% endfor %}
+        <span>/</span>
+      </li>
     </ul>
   </nav>
   {% include social-links.html %}
+  <img src="{{ site.url }}/img/bear.png" width="110px" height="90px" id="bear" />
 </div>
