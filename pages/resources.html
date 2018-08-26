@@ -4,6 +4,7 @@ title: Resources
 permalink: /resources/
 ---
 
+<h3><code style="font-size: 1em">Fall 2018</code></h3>
 <div class="archive">
   <div class="timeline" id="timeline">
     {% for cat in site.categories %}
@@ -12,10 +13,12 @@ permalink: /resources/
         <h4 class="archive-year" id="{{ cat_name | slugize }}">{{ cat_name }}</h4>
       </div><ul>
       {% for post in site.categories[cat_name] %}
-        <li>
-          <div style="width:60px;float:left;">{{ post.date | date: "%b %-d" }}</div>
-          <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
-        </li>
+        {% if post.quarter == "fa18" %}
+          <li>
+            <div style="width:60px; float:left;">{{ post.date | date: "%b %-d" }}</div>
+            <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
+          </li>
+        {% endif %}
       {% endfor %}</ul>
     {% endfor %}
   </div>
