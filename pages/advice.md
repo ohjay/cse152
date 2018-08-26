@@ -8,6 +8,7 @@ permalink: /advice/
 - This class is what you make of it. You are not forced to do anything, but you have the option to do everything.
 - There is one way to learn, and one way to master. To **iterate** is to learn; to **teach** is to master.
 - Don't look things up and don't ask for help until you've really thought about it for yourself. You can't just take everyone else's thoughts; they will not always be available so it's not worth it in the long run.
+- have both slides (short, for presentation) and notes (comprehensive, for reading) and schedule for posting ("I am going to post these before section; please read them. It will provide an overview of the topics we're going to cover") as the best way to learn is to read beforehand, process it, and then process it again during lecture/section. One needs a two-step process, even if it's just a warmup and a description and an exercise. One needs a "beforehand"
 
 ### Life
 - Keep trying and eventually you'll stumble onto something. But you have to try, have to think, have to _do_ something and give yourself that chance to stumble onto something.
