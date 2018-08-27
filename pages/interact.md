@@ -34,7 +34,7 @@ You can say anything: adding content, etc, etc. research has found that formaliz
 
 #### Teaching the material
 
-Taking this class is your third-best opportunity to know this stuff [behind (1) getting to apply the material, and (2) getting to teach the material]. You have the advantage of regular lectures, you have the incentive of a grade – you should be able to teach this stuff too. And there's value in that: recall that teaching is one of the two best opportunities for understanding something. ;)
+Taking this class is your third-best opportunity to know this stuff (behind getting to apply the material, and getting to teach the material). You have the advantage of regular lectures, you have the incentive of a grade – you should be able to teach this stuff too. And there's value in that: recall that teaching is one of the two best opportunities for understanding something. ;)
 
 So I'd like to give you the opportunity to teach. Every week, there will be a number of bookable Google calendar slots... [write]
 

@@ -11,7 +11,14 @@ You’ll find this post in your `_posts` directory. Go ahead and edit it and re-
 
 To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
 
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTQgHjhwmHtPW5C5g3UkAbNnfUGywUMG2CAq63nlIpt2VH-57C2ez-CulPG3Lf6Tbo9JMrQtpNERhSx/embed?start=false&loop=false&delayms=5000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
 <!--more-->
+
+<div id="slides"></div>
+<script src="{{ site.url }}/js/pdfobject.min.js"></script>
+<script>PDFObject.embed("{{ site.url }}/slides/fa18/section1.pdf", "#slides");</script>
+<style>.pdfobject-container { height: 610px; }</style>
 
 Jekyll also offers powerful support for code snippets:
 
