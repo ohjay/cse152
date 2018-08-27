@@ -290,10 +290,10 @@
         width: 50%
     }
     .roadmap.roadmap--orientation-auto .roadmap__events__event:nth-child(odd) .event {
-        margin-left: -10%
+        margin-left: 0%
     }
     .roadmap.roadmap--orientation-auto .roadmap__events__event:nth-child(even) .event {
-        margin-right: -10%
+        margin-right: 0%
     }
 }
 @media only screen and (max-width:992px) {
@@ -641,6 +641,12 @@
     top: -12px;
     padding-right: 48px;
 }
+@media only screen and (max-width:600px) {
+    .roadmap.roadmap--orientation-vertical .roadmap__events__event:nth-child(odd) .event {
+        top: -12px;
+        padding-right: 32px;
+    }
+}
 .roadmap.roadmap--orientation-vertical .roadmap__events__event:nth-child(even) {
     top: 0
 }
@@ -653,6 +659,12 @@
 .roadmap.roadmap--orientation-vertical .roadmap__events__event:nth-child(even) .event {
     bottom: 80px;
     padding-left: 48px;
+}
+@media only screen and (max-width:600px) {
+    .roadmap.roadmap--orientation-vertical .roadmap__events__event:nth-child(even) .event {
+        bottom: 80px;
+        padding-left: 32px;
+    }
 }
 .roadmap.roadmap--orientation-vertical .roadmap__events__event:nth-child(1n) .event, .roadmap.roadmap--orientation-vertical .roadmap__events__event:nth-child(1n):after, .roadmap.roadmap--orientation-vertical .roadmap__events__event:nth-child(1n):before {
     -webkit-transition-delay: .13s;
@@ -830,10 +842,10 @@
         width: 50%
     }
     .roadmap.roadmap--orientation-vertical .roadmap__events__event:nth-child(odd) .event {
-        margin-left: -10%
+        margin-left: 0%
     }
     .roadmap.roadmap--orientation-vertical .roadmap__events__event:nth-child(even) .event {
-        margin-right: -10%
+        margin-right: 0%
     }
 }
 .roadmap.roadmap--orientation-vertical.roadmap--initialized .roadmap__events:after {

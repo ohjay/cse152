@@ -130,36 +130,6 @@
              */
             $('body').on('click', '.' + settings.rootClass + ' .' + settings.rootClass + '__navigation li > *', function(e) {
                 e.preventDefault();
-                /**
-                 * Handle prev click
-                 */
-                if ($(this).hasClass('prev')) {
-                    var currentSlide = $this.data('currentSlide');
-                    if (currentSlide < 1) {
-                        return false;
-                    }
-                    $this.data({
-                        events: events,
-                        settings: settings,
-                        currentSlide: currentSlide - 1
-                    });
-                    build();
-                }
-                /**
-                 * Handle next click
-                 */
-                else {
-                    var currentSlide = $this.data('currentSlide');
-                    if ((currentSlide + 1) * settings.eventsPerSlide >= events.length) {
-                        return false;
-                    }
-                    $this.data({
-                        events: events,
-                        settings: settings,
-                        currentSlide: currentSlide + 1
-                    });
-                    build();
-                }
             });
             $(window).on('resize', function() {
                 $this.removeClass(settings.rootClass + '--initialized');
