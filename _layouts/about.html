@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include head.html %}
+<link href="{{ site.url }}/css/jquery.roadmap.min.css" rel="stylesheet">
+
+<body>
+  <div class="row">
+    <div class="col s12 m3">
+      <div class="table cover">
+        {% include sidebar.html %}
+      </div>
+    </div>
+    <div class="col s12 m9">
+      <div class="post-listing">
+        {{ content }}
+        {% include footer.html %}
+      </div>
+    </div>
+  </div>
+  {% include js.html %}
+  <script src="{{ site.url }}/js/jquery.roadmap.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      var events = [
+        {
+          date: 'Physics of Imaging',
+          content: '<small>Lorem ipsum dolor sit amet Consectetur adipisicing elit</small>'
+        },
+        {
+          date: 'Early Vision',
+          content: '<small>Lorem ipsum dolor sit amet Consectetur adipisicing elit</small>'
+        },
+        {
+          date: 'Reconstruction',
+          content: '<small>Lorem ipsum dolor sit amet Consectetur adipisicing elit</small>'
+        },
+        {
+          date: 'Recognition',
+          content: '<small>Lorem ipsum dolor sit amet Consectetur adipisicing elit</small>'
+        }
+      ];
+      $('#course-roadmap').roadmap(events, {
+        eventsPerSlide: 4,
+        slide: 1,
+        orientation: 'vertical'
+      });
+    });
+  </script>
+</body>
+</html>

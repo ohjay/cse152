@@ -10,6 +10,7 @@ permalink: /resources/
     {% for cat in site.categories %}
       {% capture cat_name %}{{ cat | first }}{% endcapture %}
       <div class="archive-title">
+        <!-- TODO remove ID for non-current semester -->
         <h4 class="archive-year" id="{{ cat_name | slugize }}">{{ cat_name }}</h4>
       </div><ul>
       {% for post in site.categories[cat_name] %}
