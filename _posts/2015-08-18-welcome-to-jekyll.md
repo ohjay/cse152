@@ -20,6 +20,8 @@ To add new posts, simply add a file in the `_posts` directory that follows the c
 <script>PDFObject.embed("{{ site.url }}/slides/fa18/section1.pdf", "#slides");</script>
 <style>.pdfobject-container { height: 610px; }</style>
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-rnZ5p1BNFE?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
 Jekyll also offers powerful support for code snippets:
 
 {% highlight ruby %}
