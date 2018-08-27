@@ -36,13 +36,13 @@ You can say anything: adding content, etc, etc. research has found that formaliz
 
 Taking this class is your third-best opportunity to know this stuff [behind (1) getting to apply the material, and (2) getting to teach the material]. You have the advantage of regular lectures, you have the incentive of a grade – you should be able to teach this stuff too. And there's value in that: recall that teaching is one of the two best opportunities for understanding something. ;)
 
-So I'd like to give you the opportunity to teach.
+So I'd like to give you the opportunity to teach. Every week, there will be a number of bookable Google calendar slots... [write]
 
 If your slides and presentation are good, I can post it here for others to use. :)
 
-TODO
-
-- create bookable Google Calendar slots(https://it.stonybrook.edu/help/kb/creating-bookable-appointment-slots-in-google-calendar, https://support.google.com/calendar/answer/190998?hl=en)
+<div style="text-align: center">
+  <a id="ts-button" href="https://calendar.google.com/calendar/selfsched?sstoken=UUdpTHc2UWlqV1I2fGRlZmF1bHR8YTcyNzZmZjIxODI4M2IyNjIzYThiOWZkZjk0YTAwY2Q">Book a teaching slot</a>
+</div>
 
 #### Office hours
 
