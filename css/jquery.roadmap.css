@@ -639,12 +639,12 @@
 }
 .roadmap.roadmap--orientation-vertical .roadmap__events__event:nth-child(odd) .event {
     top: -12px;
-    padding-right: 51px;
+    padding-right: 53px;
 }
 @media only screen and (max-width:600px) {
     .roadmap.roadmap--orientation-vertical .roadmap__events__event:nth-child(odd) .event {
         top: -12px;
-        padding-right: 35px;
+        padding-right: 37px;
     }
 }
 .roadmap.roadmap--orientation-vertical .roadmap__events__event:nth-child(even) {
@@ -658,12 +658,12 @@
 }
 .roadmap.roadmap--orientation-vertical .roadmap__events__event:nth-child(even) .event {
     bottom: 80px;
-    padding-left: 51px;
+    padding-left: 53px;
 }
 @media only screen and (max-width:600px) {
     .roadmap.roadmap--orientation-vertical .roadmap__events__event:nth-child(even) .event {
         bottom: 80px;
-        padding-left: 35px;
+        padding-left: 37px;
     }
 }
 .roadmap.roadmap--orientation-vertical .roadmap__events__event:nth-child(1n) .event, .roadmap.roadmap--orientation-vertical .roadmap__events__event:nth-child(1n):after, .roadmap.roadmap--orientation-vertical .roadmap__events__event:nth-child(1n):before {
