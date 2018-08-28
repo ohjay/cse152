@@ -33,7 +33,10 @@ So I'd like to give you the opportunity to teach. Every week, there will be a nu
 
 If your slides and presentation are good, I can post it here for others to use. :)
 
-Tips on talks, (1): https://d1b10bmlvqabco.cloudfront.net/attach/jcirbunfsor3sh/i54riyaslsX/jgvhcnsbmjkb/GiveAGoodTalk.pdf
+Talktips:
+
+- [giveagoodtalk](https://d1b10bmlvqabco.cloudfront.net/attach/jcirbunfsor3sh/i54riyaslsX/jgvhcnsbmjkb/GiveAGoodTalk.pdf)
+- [grauman](https://www.cc.gatech.edu/~parikh/citizenofcvpr/static/slides/grauman_preparing_clear_talks.pdf)
 
 <div style="text-align: center">
   <a id="ts-button" href="https://calendar.google.com/calendar/selfsched?sstoken=UUdpTHc2UWlqV1I2fGRlZmF1bHR8YTcyNzZmZjIxODI4M2IyNjIzYThiOWZkZjk0YTAwY2Q">Book a teaching slot</a>
