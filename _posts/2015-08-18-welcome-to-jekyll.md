@@ -11,16 +11,24 @@ You’ll find this post in your `_posts` directory. Go ahead and edit it and re-
 
 To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
 
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTQgHjhwmHtPW5C5g3UkAbNnfUGywUMG2CAq63nlIpt2VH-57C2ez-CulPG3Lf6Tbo9JMrQtpNERhSx/embed?start=false&loop=false&delayms=5000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<div class="iframe-container aspect-58">
+  <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTQgHjhwmHtPW5C5g3UkAbNnfUGywUMG2CAq63nlIpt2VH-57C2ez-CulPG3Lf6Tbo9JMrQtpNERhSx/embed?start=false&loop=false&delayms=5000" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+</div>
 
 <!--more-->
+
+<br />
 
 <div id="slides"></div>
 <script src="{{ site.url }}/js/pdfobject.min.js"></script>
 <script>PDFObject.embed("{{ site.url }}/slides/fa18/section1.pdf", "#slides");</script>
 <style>.pdfobject-container { height: 610px; }</style>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-rnZ5p1BNFE?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<br />
+
+<div class="iframe-container aspect-5625">
+  <iframe src="https://www.youtube.com/embed/-rnZ5p1BNFE?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
 
 Jekyll also offers powerful support for code snippets:
 

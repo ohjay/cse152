@@ -122,5 +122,23 @@
 #ts-button:hover {
   background-color: #046497;
 }
+.iframe-container {
+  overflow: hidden;
+  position: relative;
+}
+.iframe-container iframe {
+  border: 0;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.aspect-58 {
+  padding-top: 58%; // set to (height) / (width)
+}
+.aspect-5625 {
+  padding-top: 56.25%; // set to (height) / (width)
+}
 #mc_embed_signup { background: #fff; clear: left; width: 100%; }
 #mc_embed_signup input.email { font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif; }
