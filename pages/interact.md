@@ -12,13 +12,6 @@ Please comment on these posts if you are confused or have anything to say! If yo
 You can say anything: adding content, etc, etc. research has found that formalizing your thoughts helps with learning. Tips on commenting: https://cs184.eecs.berkeley.edu/article/5
 
 <!-- Begin MailChimp signup form -->
-<link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
-<style type="text/css">
-  #mc_embed_signup { background: #fff; clear: left; width: 100%; }
-  #mc_embed_signup input.email { font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif; }
-  /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
-     We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-</style>
 <div id="mc_embed_signup">
 <form action="https://xyz.us19.list-manage.com/subscribe/post?u=5f4fbc542362113d0de96c58d&amp;id=257c160968" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
   <div id="mc_embed_signup_scroll">
@@ -39,6 +32,8 @@ Taking this class is your third-best opportunity to know this stuff (behind gett
 So I'd like to give you the opportunity to teach. Every week, there will be a number of bookable Google calendar slots... [write]
 
 If your slides and presentation are good, I can post it here for others to use. :)
+
+Tips on talks, (1): https://d1b10bmlvqabco.cloudfront.net/attach/jcirbunfsor3sh/i54riyaslsX/jgvhcnsbmjkb/GiveAGoodTalk.pdf
 
 <div style="text-align: center">
   <a id="ts-button" href="https://calendar.google.com/calendar/selfsched?sstoken=UUdpTHc2UWlqV1I2fGRlZmF1bHR8YTcyNzZmZjIxODI4M2IyNjIzYThiOWZkZjk0YTAwY2Q">Book a teaching slot</a>

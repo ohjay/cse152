@@ -40,7 +40,6 @@ layout: default
       <p>
         {{ post.excerpt }}
       </p>
-      <a href="{{ site.url }}{{ post.url }}">...view the full post</a>
     </div>
     {% endif %}
 
@@ -59,6 +58,8 @@ layout: default
       {% endif %}
     </div><!-- /.image-wrap -->
     {% endif %}
+
+    <a href="{{ site.url }}{{ post.url }}">...view the full post</a>
 
 </section>
 {% endif %}
