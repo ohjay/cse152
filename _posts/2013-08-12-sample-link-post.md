@@ -8,8 +8,6 @@ share: true
 quarter: fa18
 ---
 
-<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async></script>
-
 <h1 id="image-formation">Image Formation</h1>
 <ul>
 <li><p>In a camera, the process of image formation consists of (1) photons striking a grid of detector cells and (2) the charge at each detector cell (pixel) being read out as brightness. Typically, the detectors are CMOS or CCD, both of which convert photons into electric charge.</p></li>
