@@ -14,6 +14,7 @@ permalink: /advice/
 - Keep trying and eventually you'll stumble onto something. But you have to try, have to think, have to _do_ something and give yourself that chance to stumble onto something.
 - Don't worry about whether you're good enough. You probably aren't as good as the best, but who is to say what's enough? If you don't do anything you will never be that good; the only way is to do things. You just have to do things.
 - Drink a ridiculous amount of water.
+- http://www.pgbovine.net/productivity-tips.htm
 
 ### Falling Asleep*
 - (saw something on reddit; add)
