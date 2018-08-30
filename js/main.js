@@ -4,7 +4,14 @@ function resizeJax() {
         var w = val.children[0].offsetWidth;
         var W = val.offsetWidth;
         if (w > W) {
-            val.style.fontSize = 95 * W / w + '%';
+            var currSize = val.style.fontSize.toString();
+            if (currSize.length > 0 && currSize.slice(-1) == '%') {
+                currSize = currSize.substring(0, currSize.length - 1);
+                currSize = parseFloat(currSize) / 100;
+            } else {
+                currSize = 1;
+            }
+            val.style.fontSize = currSize * 95 * W / w + '%';
         }
     });
 }
@@ -14,5 +21,12 @@ var mjaxURL = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?c
 $.getScript(mjaxURL, function() {
     // MathJax has been loaded
     MathJax.Hub.Queue(resizeJax);
-    window.addEventListener('resize', resizeJax);
+
+    var timeout;
+    window.addEventListener('resize', function() {
+        clearTimeout(timeout);
+        timeout = setTimeout(function() {
+            resizeJax();
+        }, 1000);
+    });
 });
