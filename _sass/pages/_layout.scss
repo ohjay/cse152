@@ -109,7 +109,6 @@
   border-radius: 3px;
   letter-spacing: 0.03em;
   color: #fff;
-  background-color: #1b9ce2;
   box-sizing: border-box;
   height: 32px;
   line-height: 32px;
@@ -119,7 +118,11 @@
   transition: all 0.23s ease-in-out 0s;
   cursor: pointer;
 }
-#ts-button:hover {
+#ts-button, .clear > #mc-embedded-subscribe.button {
+  background-color: #1b9ce2;
+  font-weight: bold;
+}
+#ts-button:hover, .clear > #mc-embedded-subscribe.button:hover {
   background-color: #046497;
 }
 .iframe-container {

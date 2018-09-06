@@ -4,25 +4,65 @@ title: Advice
 permalink: /advice/
 ---
 
-### Class
-- This class is what you make of it. You are not forced to do anything, but you have the option to do everything.
-- There is one way to learn, and one way to master. To **iterate** is to learn; to **teach** is to master.
-- Don't look things up and don't ask for help until you've really thought about it for yourself. You can't just take everyone else's thoughts; they will not always be available so it's not worth it in the long run.
-- have both slides (short, for presentation) and notes (comprehensive, for reading) and schedule for posting ("I am going to post these before section; please read them. It will provide an overview of the topics we're going to cover") as the best way to learn is to read beforehand, process it, and then process it again during lecture/section. One needs a two-step process, even if it's just a warmup and a description and an exercise. One needs a "beforehand"
+_My first advice: take all of my advice with a grain of salt._
 
-### Life
-- Keep trying and eventually you'll stumble onto something. But you have to try, have to think, have to _do_ something and give yourself that chance to stumble onto something.
-- Don't worry about whether you're good enough. You probably aren't as good as the best, but who is to say what's enough? If you don't do anything you will never be that good; the only way is to do things. You just have to do things.
-- Drink a ridiculous amount of water.
-- http://www.pgbovine.net/productivity-tips.htm
+<div style="text-align: justify">
+  <div class="row">
+    <div class="col l5">
+      <div class="row">
+        <div class="col">
+          <h3 id="class">Class</h3>
+          <ul>
+            <li>
+              <p>Don’t look things up and don’t ask for help until you’ve really thought about the problem or idea for yourself. You can’t just take everybody else’s thoughts. (It sounds like I’m talking about cheating but I’m not; I’m talking about getting every insight fed to you.) Others’ thoughts will not always be available, so it’s not worth it in the long run.</p>
+            </li>
+            <li>
+              <p>For CSE 152: I am going to post both slides (short, used for presentation) and notes (comprehensive, for reading). These will be posted before section, so please read them beforehand. You will get much more out of lecture/section if you have already processed the concepts beforehand. That multi-phase process, that “beforehand,” is the cornerstone of learning, even when it’s just a warmup and a description before an exercise. As in all things, iteration is your best friend. Consciously make an effort to iterate on your understanding of these ideas.</p>
+            </li>
+            <li>
+              <p><a href="http://datastructur.es/sp17/materials/guides/study-guide.html">Studying for Exams, by Josh Hug</a></p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <h3 id="falling-asleep">Falling Asleep*</h3>
+          <ul>
+            <li>
+              <p>We all know about tiring ourselves out during the day (exercise!), but I’ve been told that tiring your <em>eyes</em> out also helps. What does that mean? It means “blink a lot.” I have not observed this to provide any positive benefit, but I thought it was funny so I’m going to leave it here anyway.</p>
+            </li>
+            <li>
+              <p>I’ve found pre-sleepytime reading to increase drowsiness. Maybe nothing too thrilling, though.</p>
+            </li>
+            <li>
+              <p><a href="https://www.tuck.com/sleep-hygiene/">Sleep Hygiene, by Tuck</a></p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
 
-### Falling Asleep*
-- (saw something on reddit; add)
-- no nap
-- eat a lot
-- tire yourself out
-- tire your eyes out: blink a lot
-- read something boring before bed
-- coffee okay on occasion, try not to get addicted until you're older
+    <div class="col l5 offset-l1">
+      <div class="row">
+        <h3 id="life">Life</h3>
+        <ul>
+          <li>
+            <p>There are four main reasons, not exclusive, to pursue something. One is that you can be paid for it. Another is that you are good at it. Another is that people need it. And finally there is the possibility that you love it. This last reason is the most important, I think, and is arguably most likely to precipitate each of the others. It is much easier to excel at something if you enjoy it, for example, because then you will be happy to spend time improving at it. Enjoy, or find a way to feel like you enjoy, what you do!</p>
+          </li>
+          <li>
+            <p><em>For every good photo you take, there are a thousand terrible ones.</em> Perhaps it is obvious, but keep trying different approaches and eventually you’ll stumble onto something that works. Generally, the more mindful you are about choosing approaches, the less time this process will take. But you have to try, have to think, have to <em>do</em> things in order to give yourself these chances to fall into flashes of “brilliance.” The only way is to do things. You just have to do things.</p>
+          </li>
+          <li>
+            <p><strong>Drink a ridiculous amount of water.</strong></p>
+          </li>
+          <li>
+            <p><a href="http://www.pgbovine.net/productivity-tips.htm">On Productivity, by Philip Guo</a></p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
 
-\* not to be applied during CSE 152
+<p>* not to be applied during CSE 152</p>
