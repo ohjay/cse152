@@ -4,9 +4,9 @@ title: "Welcome to CSE 152!"
 date: 2018-09-07 01:01:01
 categories: [lab, notes, section, other]
 image:
-  feature: https://images.unsplash.com/photo-1440635592348-167b1b30296f?crop=entropy&dpr=2&fit=crop&fm=jpg&h=475&ixjsv=2.1.0&ixlib=rb-0.3.5&q=50&w=1250
-  credit: thomas shellberg
-  creditlink: https://unsplash.com/photos/Ki0dpxd3LGc
+  feature: https://upload.wikimedia.org/wikipedia/en/thumb/f/f3/UCSD-Warren_Pano.jpg/2880px-UCSD-Warren_Pano.jpg
+  credit: Wikipedia
+  creditlink: https://upload.wikimedia.org/wikipedia/en/thumb/f/f3/UCSD-Warren_Pano.jpg/2880px-UCSD-Warren_Pano.jpg
 comments: true
 quarter: fa18
 ---
@@ -14,6 +14,12 @@ quarter: fa18
 As the title says, welcome to CSE 152!
 
 <hr />
+
+This is the first post on the website, and I'm labeling it with all of the tags in order to get things started. Looking forward to creating and posting lots of computer vision (CV)-related content on this website! I'll make posts whenever there's new stuff to share, and for your convenience all of the posts will be aggregated and organized on the [resources](https://owenjow.xyz/cse152/resources) page.
+
+Let's have a good quarter, everybody!
+
+\- o.
 
 Example of embedding a Google Slides presentation:
 
@@ -80,31 +86,6 @@ Fashion axe hella gastropub lo-fi kogi 90's aliquip +1 veniam delectus tousled. 
 
 > Whatever velit occaecat quis deserunt gastropub, leggings elit tousled roof party 3 wolf moon kogi pug blue bottle ea. Fashion axe shabby chic Austin quinoa pickled laborum bitters next level, disrupt deep v accusamus non fingerstache.
 
-Tote bag asymmetrical elit sunt. Occaecat authentic Marfa, hella McSweeney's next level irure veniam master cleanse. Sed hoodie letterpress artisan wolf leggings, 3 wolf moon commodo ullamco. Anim occupy ea labore Terry Richardson. Tofu ex master cleanse in whatever pitchfork banh mi, occupy fugiat fanny pack Austin authentic. Magna fugiat 3 wolf moon, labore McSweeney's sustainable vero consectetur. Gluten-free disrupt enim, aesthetic fugiat jean shorts trust fund keffiyeh magna try-hard.
-
 large feature image[^1]
 
 [^1]: Texture image courtesty of [Lovetextures](http://www.lovetextures.com/)
-
-## Notices
-
-**Watch out!** You can also add notices by appending `{: .notice}` to a paragraph.
-{: .notice}
-
-## Buttons
-
-<div markdown="0"><a href="#" class="btn">Primary Button</a></div>
-<div markdown="0"><a href="#" class="btn btn-success">Success Button</a></div>
-<div markdown="0"><a href="#" class="btn btn-warning">Warning Button</a></div>
-<div markdown="0"><a href="#" class="btn btn-danger">Danger Button</a></div>
-<div markdown="0"><a href="#" class="btn btn-info">Info Button</a></div>
-
-## Code Snippets
-
-{% highlight css %}
-#container {
-  float: left;
-  margin: 0 -240px 0 0;
-  width: 100%;
-}
-{% endhighlight %}

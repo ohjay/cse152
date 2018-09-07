@@ -18,6 +18,9 @@ _My first advice: take all of my advice with a grain of salt._
           <p>For CSE 152: I am going to post both slides (short, used for presentation) and notes (comprehensive, for reading). These will be posted before section, so please read them beforehand. You will get much more out of lecture/section if you have already processed the concepts beforehand. That multi-phase process, that “beforehand,” is the cornerstone of learning, even when it’s just a warmup and a description before an exercise. Iteration is your best friend here (as in all pursuits): consciously make an effort to iterate on your understanding of these ideas!</p>
         </li>
         <li>
+          <p>Don't wait to start your assignment (or your studying). Do it now. Like right now. You can keep reading after you break new ground.</p>
+        </li>
+        <li>
           <p><a href="http://datastructur.es/sp17/materials/guides/study-guide.html">Studying for Exams, by Josh Hug</a></p>
         </li>
       </ul>
