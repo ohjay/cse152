@@ -27,18 +27,18 @@ _Why do this?_ Pedagogy research has found that formalizing your thoughts helps 
 
 #### Teaching the material
 
-Taking this class is your third-best opportunity to know this stuff (behind getting to apply the material, and getting to teach the material). You have the advantage of regular lectures, you have the incentive of a grade – you should be able to teach this stuff too. And there's value in that: recall that teaching is one of the two best opportunities for understanding something. ;)
+Here's something you may not know: teaching isn't a one-way conduit. It's valuable not only from a student's perspective, but from the teacher's also. (Maybe our professors should be paying us students.) In the words of the theoretical computer scientist Christos Papadimitriou, "teaching is the only way [...] to understand something." Maybe it doesn't have to be that extreme, but I definitely believe there's a lot of truth there. If you want to get a really good grasp on something, you should try teaching it – summarize the importance of it, the main ideas, the math... whatever you find relevant. In theory this will make the concept much clearer in your head, and you may even encounter cracks in your understanding that you can fix.
 
-However, many of you might not have the opportunity to teach. So I'd like to give you that opportunity. Every week, I'll create a number of bookable Google calendar slots for any of you guys to explain concepts to _me_. I would expect some level of preparation, e.g. slides or a readiness to "lecture" with the use of notes or a whiteboard.
-
-If your slides and presentation are good, I can post it here for others' benefit as well. :)
-
-_Tips on giving a presentation_: check out [these slides by Antonio Torralba](https://d1b10bmlvqabco.cloudfront.net/attach/jcirbunfsor3sh/i54riyaslsX/jgvhcnsbmjkb/GiveAGoodTalk.pdf), or [these slides by Kristen Grauman](https://www.cc.gatech.edu/~parikh/citizenofcvpr/static/slides/grauman_preparing_clear_talks.pdf).
+But many of you might not have the opportunity to teach. I'd like to make sure that's not the case, so that you have no excuse. ;) Thus I'm offering myself as a "student," one with questions and feedback, to whom you can explain the material. There'll a number of 30-minute Google calendar slots that you can book each week, to teach the material to me if you so desire. **Note: I would expect some level of preparation, e.g. slides, or a readiness to "lecture" with the use of notes or a whiteboard.** You can go over any topic we've covered in the class so far. Of course, there would be no tangible incentive (i.e. it's not part of your grade), but I'd hope that it would still impact your learning in a positive way.
 
 <div style="text-align: center">
   <a id="ts-button" href="https://calendar.google.com/calendar/selfsched?sstoken=UUdpTHc2UWlqV1I2fGRlZmF1bHR8YTcyNzZmZjIxODI4M2IyNjIzYThiOWZkZjk0YTAwY2Q">Book a teaching slot</a>
 </div>
 
+If your slides and presentation are good, I can post it here for others' benefit as well. :)
+
+_Tips on giving a presentation_: check out [these slides by Antonio Torralba](https://d1b10bmlvqabco.cloudfront.net/attach/jcirbunfsor3sh/i54riyaslsX/jgvhcnsbmjkb/GiveAGoodTalk.pdf), or [these slides by Kristen Grauman](https://www.cc.gatech.edu/~parikh/citizenofcvpr/static/slides/grauman_preparing_clear_talks.pdf).
+
 #### Office hours
 
-If there's anything else you'd like to talk about, you can visit me in office hours.
+_The classic way to interact._ If there's anything else you'd like to talk about, you can visit me in office hours.
