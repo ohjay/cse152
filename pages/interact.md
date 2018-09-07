@@ -31,7 +31,7 @@ Teaching isn't a one-way conduit; it's valuable for the teacher as well as the s
 
 But many of you may not have the opportunity to teach. So that you have no excuse, I'd like to make sure that you can teach if you so desire. ;) That is, you're free to explain concepts to _me_, a questioning and responsive student. I'm serious; I'll create a number of 30-minute Google calendar slots that you can book each week, to teach the material to someone who cares about it (yours truly). **Note: I would expect some level of preparation, e.g. a plan of attack that includes slides or a readiness to illustrate the material on paper/whiteboard.** You can go over any topic (or tangential topic) we've covered in the class so far.
 
-Of course, there would be no tangible incentive to this (i.e. it's unofficial and not explicitly part of any grade), but I'd hope that it would still impact your learning in a positive way. On the plus side, it's low-pressure and purely for your benefit!
+Of course, there would be no outward-facing incentive to this (i.e. it's unofficial and not explicitly part of any grade), but I'd hope that it would still impact your learning in a positive way. On the plus side, it's low-pressure and purely for your benefit!
 
 You can book a teaching slot via the Google calendar linked below.
 
