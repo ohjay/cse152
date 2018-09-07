@@ -7,7 +7,7 @@ permalink: /interact/
 I would like to encourage interactivity. There are several ways you can engage...
 
 #### Commenting on posts
-Please comment on these posts if you are confused or have anything to say! If you don't want to make an account, you can post as a guest. You can say anything you like (assuming good intentions): questions about the material, an additional explanation, etc. For other tips on commenting, see [here](https://cs184.eecs.berkeley.edu/article/5).
+Please comment on these posts if you are confused or have anything to say! You can even comment as a guest (though due to the way Disqus is set up, it might be easier to just make an account). You can say anything you like, assuming good intentions: questions about the material, an additional explanation, etc. For tips on commenting, see [here](https://cs184.eecs.berkeley.edu/article/5).
 
 _Why do this?_ Pedagogy research has found that formalizing your thoughts helps with learning.
 
@@ -27,7 +27,7 @@ _Why do this?_ Pedagogy research has found that formalizing your thoughts helps 
 
 #### Teaching the material
 
-Teaching isn't a one-way conduit; it's valuable for the teacher as well as the student. (Maybe our teachers should be paying _us_.) In the words of the theoretical computer scientist Christos Papadimitriou, "teaching is the only way [...] to understand something." I think there's a lot of truth to that statement. If you want to get a really good grasp on something, you should try teaching it – summarize the importance, the main ideas, the math, etc. This should make the concept much clearer in your head, and you might even encounter cracks in your understanding that you can fix.
+Teaching isn't a one-way conduit; it's valuable for the teacher as well as the student. (Maybe our teachers should be paying us.) In the words of the theoretical computer scientist Christos Papadimitriou, "teaching is the only way [...] to understand something." I think there's a lot of truth to that statement. If you want to get a really good grasp on something, you should try teaching it – summarize the importance, the main ideas, the math, etc. This should make the concept much clearer in your head, and you might even encounter cracks in your understanding that you can fix.
 
 But many of you may not have the opportunity to teach. So that you have no excuse, I'd like to make sure that you can teach if you so desire. ;) That is, you're free to explain concepts to _me_, a questioning and responsive student. I'm serious; I'll create a number of 30-minute Google calendar slots that you can book each week, to teach the material to someone who cares about it (yours truly). **Note: I would expect some level of preparation, e.g. a plan of attack that includes slides or a readiness to illustrate the material on paper/whiteboard.** You can go over any topic (or tangential topic) we've covered in the class so far.
 

@@ -25,7 +25,6 @@ _My first advice: take all of my advice with a grain of salt._
         </li>
       </ul>
     </div>
-
     <div class="col l5 offset-l1">
       <h3 id="life">Life</h3>
       <ul>
