@@ -125,6 +125,9 @@
 #ts-button:hover, .clear > #mc-embedded-subscribe.button:hover {
   background-color: #046497;
 }
+@media (max-width: 768px) {
+  #ts-button { width: 70%; margin: 0; }
+}
 .iframe-container {
   overflow: hidden;
   position: relative;
