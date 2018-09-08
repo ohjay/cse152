@@ -149,3 +149,10 @@
 .aspect-5625 {
   padding-top: 56.25%; // set to (height) / (width)
 }
+.justified-unless-mobile {
+  text-align: justify;
+}
+@media (max-width: 768px) {
+  .justified-unless-mobile { text-align: left; }
+  ul.bullets-unless-mobile { list-style: none; padding-left: 0; }
+}
