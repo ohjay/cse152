@@ -7,7 +7,7 @@ permalink: /interact/
 I would like to encourage interactivity. There are several ways you can engage...
 
 #### Commenting on posts
-Please comment on these posts if you are confused or have anything to say! You can even comment as a guest – although due to the way Disqus is set up, it might be easier to make an account. Write whatever you like, so long as you have good intentions. A question, a different explanation, a block text decrying my lack of coherency... it's up to you. For tips on making good comments, see [here](https://cs184.eecs.berkeley.edu/article/5).
+Please comment on these posts if you are confused or have anything to say! I would love to see (among many other things) questions, alternative explanations, or block texts decrying my lack of coherency. For tips on making good comments, see [here](https://cs184.eecs.berkeley.edu/article/5).
 
 _Why do this?_ Pedagogy research has found that formalizing your thoughts helps with learning.
 
