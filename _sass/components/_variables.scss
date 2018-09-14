@@ -75,5 +75,6 @@ $element-bottom-margin: ($gutter-width*2)/3 !default;
 // Media Query Ranges
 $small-screen: 600px !default;
 $medium-screen: 992px !default;
+$medium-screen-1: 991px !default; // $medium-screen minus 1px
 $large-screen: 1200px !default;
 $larger-screen: 1600px !default;
