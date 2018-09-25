@@ -4,6 +4,7 @@
   <div class="timeline" id="timeline">
     {% for section in site.data.sections_fa18 %}
       <div class="archive-title bio"><div class="archive-year"><strong>{{ section.time }}</strong> &nbsp; {{ section.location }}</div></div>
+      {% if section.note %}<div style="margin-left: 1em"><em>Note</em>: {{ section.note }}</div>{% endif %}
     {% endfor %}
   </div>
 </div>
