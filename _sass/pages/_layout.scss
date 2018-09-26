@@ -103,7 +103,7 @@
 }
 @media only screen and (min-width: $medium-screen) {
   #bear {
-    margin-left: calc(6vw + 15px) !important;
+    margin-left: 6.75rem !important;
   }
   .desktop-hide {
     display: none;
@@ -165,7 +165,10 @@
   ul.bullets-unless-mobile { list-style: none; padding-left: 0; }
 }
 .row .col.m3.sidebar {
-  max-width: 24rem;
+  width: 24rem;
+}
+.row .col.m9.content {
+  width: calc(100% - 24em);
 }
 .scroll-outer {
   width: 100%;
