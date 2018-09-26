@@ -164,3 +164,9 @@
   .justified-unless-mobile { text-align: left; }
   ul.bullets-unless-mobile { list-style: none; padding-left: 0; }
 }
+.row .col.m3.sidebar {
+  max-width: 24rem;
+}
+.row .col.m9.content {
+  max-width: 76rem;
+}
