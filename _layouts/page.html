@@ -2,18 +2,20 @@
 layout: default
 ---
 
-  <div id="page">
-    <header class="page-header">
-      <h2 class="impactful">{{ page.title }}</h2>
-    </header>
+  <div class="scroll-outer">
+    <div id="page" class="scroll-inner">
+      <header class="page-header">
+        <h2 class="impactful">{{ page.title }}</h2>
+      </header>
 
-    <article class="page-content">
-      {{ content }}
-    </article>
+      <article class="page-content">
+        {{ content }}
+      </article>
 
-  </div><!-- end page content -->
+    </div><!-- end page content -->
 
-  {% if site.owner.disqus-shortname and page.comments == true %}
-  <div id="disqus_thread"></div>
-  {% include disqus.html %}
-  {% endif %}
+    {% if site.owner.disqus-shortname and page.comments == true %}
+    <div id="disqus_thread"></div>
+    {% include disqus.html %}
+    {% endif %}
+  </div>

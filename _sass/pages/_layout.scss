@@ -167,6 +167,10 @@
 .row .col.m3.sidebar {
   max-width: 24rem;
 }
-.row .col.m9.content {
+.scroll-outer {
+  width: 100%;
+  overflow-y: scroll;
+}
+.scroll-inner {
   max-width: 76rem;
 }
