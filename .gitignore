@@ -14,3 +14,4 @@ _drafts
 *.lof
 *.lot
 *.toc
+*.synctex.gz(busy)
