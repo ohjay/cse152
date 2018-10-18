@@ -3,15 +3,3 @@ _site
 _drafts
 .ruby-version
 .hidden/
-*.tex
-*.aux
-*.log
-*.out
-*.synctex.gz
-*.bbl
-*.blg
-*.idx
-*.lof
-*.lot
-*.toc
-*.synctex.gz(busy)

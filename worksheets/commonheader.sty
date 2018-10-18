@@ -1,0 +1,204 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%  _______  _______  ___      ____   _______
+% |       ||       ||   |    |    | |   _   |
+% |       ||  _____||   |___  |   | |  |_|  |
+% |       || |_____ |    _  | |   | |       |
+% |      _||_____  ||   | | | |   | |       |
+% |     |_  _____| ||   |_| | |   | |   _   |
+% |_______||_______||_______| |___| |__| |__|
+%
+% Header for CS61A Discussion TeX Files
+%
+% Collected and modified by Jonathan Kotker and Thomas Magrino
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\ProvidesPackage{commonheader}
+
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{bm}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{color}
+\usepackage{enumerate}
+\usepackage{fancybox}
+\usepackage{mdframed}
+\usepackage{fix-cm}
+\usepackage{float}
+\usepackage{fullpage}
+\usepackage{graphicx}
+\usepackage[pdftex,colorlinks]{hyperref}
+\usepackage{import}
+\usepackage{listings}
+\usepackage{multicol}
+\usepackage{multirow}
+\usepackage{palatino}
+\usepackage{paralist}
+\usepackage{parskip}
+\usepackage{tabularx}
+\usepackage{tabu}
+\usepackage{tabulary}
+\usepackage[table]{colortbl}
+\usepackage[calcwidth]{titlesec}
+\usepackage{upquote}
+\usepackage{verbatim}
+\usepackage{wasysym}
+\usepackage{tikz}
+\usepackage{enumitem}
+\usepackage{mathtools}
+
+\newcommand{\HRule}[1][\medskipamount]{\par
+  \vspace*{\dimexpr-\parskip-\baselineskip+#1}
+  \noindent\rule{\linewidth}{0.2mm}\par}
+\newcommand\tab[1][1cm]{\hspace*{#1}}
+\usepackage{tabu}
+
+\newcommand{\semester}[1]{\newcommand{\sem}{#1}}
+\newcommand{\stafflist}[1]{\newcommand{\staff}{#1}}
+
+% Modify as necessary
+\semester{Fall 2018}
+
+\setlength{\marginparwidth}{1.2in}
+\let\oldmarginpar\marginpar
+\renewcommand{\marginpar}[1]{\-\oldmarginpar[\raggedleft\footnotesize #1]%
+{\raggedright\footnotesize #1}}
+
+\definecolor{titlecol}{gray}{0.6}
+
+\let\oldtitle\title
+\renewcommand{\title}[1]
+  {\oldtitle{
+    {\begin{flushright}        
+      \huge {\sc{#1}}
+      \fontsize{45}{0} \sffamily \color{titlecol} \selectfont
+      \textbf{\discnum}
+      \end{flushright}}
+    \rule{\textwidth}{0.2em}}
+  \newcommand{\disctitle}{#1}}
+
+\newcommand{\discnumber}[1]{\newcommand{\discnum}{#1}}
+
+\pagestyle{headandfoot}
+\runningheadrule
+\runningheader{\sc Discussion \discnum: \disctitle}{}{Page \thepage}
+\runningfootrule
+\runningfooter{\small \hspace*{\fill} CSE 152 \sem~$\cdot$~\textit{Owen}}{}{} % modify as necessary
+
+\titleformat{\section}[hang]{\sffamily \bfseries}
+{\fontsize{15}{25} \color{titlecol} \selectfont \thesection}{10pt}
+{\fontfamily{ppl} \fontsize{15}{0} \selectfont \raggedleft}
+[{\titlerule[1.0pt]}]
+
+\titleformat{\subsection}[hang]{\sffamily \bfseries}
+{\thesubsection}{10pt}{}[{\titlerule[0.5pt]}]
+
+\newcommand{\colorsec}[2]{\section[#1]{{\color{#2} #1}}}
+\newcommand{\colorsubsec}[2]{\subsection[#1]{{\color{#2} #1}}}
+\newcommand{\colorsubsubsec}[2]{\subsubsection[#1]{{\color{#2} #1}}}
+
+\floatstyle{ruled}
+\newfloat{ruledfigure}{tbph!}{lop}
+\floatname{ruledfigure}{Figure}
+
+\newfloat{ruledtable}{tbph!}{lop}
+\floatname{ruledtable}{Table}
+
+\renewcommand{\eqref}[1]{\hyperref[#1]{Equation \ref*{#1}}}
+\newcommand{\exref}[1]{\hyperref[#1]{exercise \ref*{#1}}}
+\newcommand{\figref}[1]{\hyperref[#1]{Figure \ref*{#1}}}
+\newcommand{\lccderef}[1]{\hyperref[#1]{LCCDE \ref*{#1}}}
+\newcommand{\quesref}[1]{\hyperref[#1]{question \ref*{#1}}}
+\newcommand{\secref}[1]{\hyperref[#1]{section \ref*{#1}}}
+\newcommand{\stepref}[1]{\hyperref[#1]{step \ref*{#1}}}
+\newcommand{\tableref}[1]{\hyperref[#1]{Table \ref*{#1}}}
+\renewcommand{\equationautorefname}{equation}
+
+\newcommand{\email}[1]{\href{#1}{{\tt #1}}}
+\newcommand{\super}[1]{\ensuremath{^{\textrm{#1}}}}
+\newcommand{\sub}[1]{\ensuremath{_{\textrm{#1}}}}
+\newcommand{\boxtext}[2]{\framebox{\parbox[b]{#1}{#2}}}
+\newcommand{\define}[1]{\textbf{#1}}
+
+\makeatletter
+\long\def\unmarkedfootnote#1{{\long\def\@makefntext##1{##1}\footnotetext{#1}}}
+\makeatother
+
+\newcommand{\boxlarge}{6.40in}
+\newcommand{\boxmed}{6.05in}
+\newcommand{\boxsmall}{5.75in}
+
+\setlength{\parindent}{0in}
+\setlength{\headsep}{0.13in}
+\allowdisplaybreaks
+
+\newcommand{\surjects}{\twoheadrightarrow}
+\newcommand{\injects}{\hookrightarrow}
+\newcommand{\isom}{\simeq}
+\newcommand{\notdiv}{\nmid}
+\newcommand{\del}{\partial}
+\newcommand{\Intersection}{\bigcap} % intersection of a collection
+\newcommand{\intersect}{\cap} % binary intersection
+\newcommand{\Union}{\bigcup} % union of a collection
+\newcommand{\union}{\cup} % binary union
+\newcommand{\tensor}{\otimes}
+\newcommand{\directsum}{\oplus} % binary direct sum
+\newcommand{\Directsum}{\bigoplus} % direct sum of a collection
+\newcommand{\isomto}{\overset{\sim}{\rightarrow}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\E}[0]{\text{E}} % expected value
+\renewcommand{\P}[0]{\text{P}} % probability of an event
+\renewcommand{\L}[0]{\text{L}}
+\newcommand{\Uniform}{\mathrm{Uniform}}
+\newcommand{\U}{\mathrm{U}}
+\newcommand{\var}[0]{\text{Var}} % variance
+\newcommand{\cov}[0]{\text{Cov}} % covariance
+\newcommand{\pfrac}[2]{\ensuremath{\left(\frac{#1}{#2}\right)}} % fraction with surrounding parens
+\newcommand{\mfrac}[2]{\ensuremath{\frac{#1}{#2}}} % fractions usable when not in math mode
+\newcommand{\meq}[0]{\ensuremath{\stackrel{?}{=}}} % maybe equal (equals with ? on top)
+\newcommand{\maybe}[1]{\ensuremath{\stackrel{?}{#1}}} % maybe anything (anything with ? on top)
+\newcommand{\problem}[1]{ \vspace{.15in} \noindent{\bf Problem #1} \quad\\\noindent} % e.g. \problem{1.1}
+\newcommand{\ninfty}[0]{{\ensuremath{{-\infty}}}} % negative infinity
+\newcommand{\pinfty}[0]{{\ensuremath{{+\infty}}}} % positive infinity
+\newcommand{\der}[1]{\ensuremath{\frac{d}{d #1}}} % derivative w.r.t. argument
+\newcommand{\pder}[2]{\ensuremath{\frac{\partial #1}{\partial #2}}} % partial derivative of arg1 w.r.t. arg2
+\newcommand{\nder}[2]{\ensuremath{\frac{d^{#2}}{d #1^{#2}}}} % nth derivative
+\newcommand{\floor}[1]{\ensuremath{\lfloor{} #1 \rfloor{}}}
+\newcommand{\ceil}[1]{\ensuremath{\lceil{} #1 \rceil{}}}
+\newcommand{\tboxed}[1]{\boxed{\text{#1}}} % like \boxed{} but for text instead of math
+\newcommand{\mb}[1]{\mathbf{#1}} % mathbf
+
+\def\({\left(}
+\def\){\right)}
+\def\ba#1\ea{\begin{align*}#1\end{align*}}
+\def\bm#1\em{\begin{bmatrix}#1\end{bmatrix}}
+
+\def\<{\fbox{\begin{minipage}{16.3cm}
+\textbf{Theorem}:  
+Consider two random variables, $X$, $Y$ with a given distribution $\P[X=x, Y=y]$. Then
+\[\L[Y|X] = \E(Y) + \frac{\cov(X, Y)}{\var(X)}(X - \E(X))\]
+\end{minipage}}eft\langle}
+\def\>{\right\rangle}
+
+\newtheorem{lemma}{Lemma}
+
+\lstset{language=Python, basicstyle=\ttfamily, showstringspaces=false, breaklines=true}
+\lstset{aboveskip=0pt, belowskip=0pt}
+
+\newlength{\currentparskip}
+\newenvironment{blocksection}
+{
+  \setlength{\currentparskip}{\parskip}
+  \begin{minipage}{\linewidth}
+  \setlength{\parskip}{\currentparskip}
+}
+{
+  \end{minipage}
+}
+
+\ifdefined\discussionsolutions
+  \printanswers
+\else
+  \noprintanswers
+\fi

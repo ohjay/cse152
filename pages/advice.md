@@ -12,13 +12,13 @@ _My first advice: take all of my advice with a grain of salt._
       <h3 id="class">Class</h3>
       <ul class="bullets-unless-mobile">
         <li>
-          <p>Don’t look things up and don’t ask for help till you’ve really thought about the problem/idea for yourself. You can’t just take everybody else’s thoughts. (It sounds like I’m talking about cheating but I’m not; I’m talking about getting all of the insights fed to you.) Others’ thoughts will not always be available, so it’s not worth it in the long run.</p>
+          <p>Don’t look things up and don’t ask for help until you’ve really thought about the problem/idea for yourself. The thoughts of others will not always be available, so it’s not worth it in the long run to rely on them. On this note, <a href="https://twitter.com/karpathy/status/904807765931024384">it's good to predict results before they're told to you</a> (e.g. during lecture).</p>
         </li>
         <li>
-          <p>For CSE 152: I am going to post both slides (shorter, oriented toward presentation) and notes (longer, oriented toward reading). These will be posted before section, so please look over them beforehand. You'll get more out of lecture/section if they aren't your first time processing the concepts. (A multi-stage process is very critical for learning, even if it's just a warmup and a description before an exercise – consciously make an effort to iterate on your understanding!)</p>
+          <p>You'll get more out of lecture/section if they aren't your first time processing the concepts. A multi-stage process is in general pretty critical for learning.</p>
         </li>
         <li>
-          <p>Don't wait to start your assignment (or your studying). Do it now. Like right now. You can keep reading after you break new ground.</p>
+          <p>Strive for mastery over "doing better than everyone else." According to CSE 599, according to education research CS students ironically do better (even grade-wise) when they prioritize the former.</p>
         </li>
         <li>
           <p><a href="http://datastructur.es/sp17/materials/guides/study-guide.html">Studying for Exams, by Josh Hug</a></p>
