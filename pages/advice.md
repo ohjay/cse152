@@ -15,10 +15,10 @@ _My first advice: take all of my advice with a grain of salt._
           <p>Don’t look things up and don’t ask for help until you’ve really thought about the problem/idea for yourself. The thoughts of others will not always be available, so it’s not worth it in the long run to rely on them. On this note, <a href="https://twitter.com/karpathy/status/904807765931024384">it's good to predict results before they're told to you</a> (e.g. during lecture).</p>
         </li>
         <li>
-          <p>You'll get more out of lecture/section if they aren't your first time processing the concepts. A multi-stage process is in general pretty critical for learning.</p>
+          <p>If possible, exposure yourself to the material before lecture – perhaps by reading. You'll get more out of lecture/section if they aren't your first time processing the concepts, and a multi-stage process is in general pretty critical for learning.</p>
         </li>
         <li>
-          <p>Strive for mastery over "doing better than everyone else." According to CSE 599, according to education research CS students ironically do better (even grade-wise) when they prioritize the former.</p>
+          <p>Strive for mastery over "doing better than everyone else." According to CSE 599, according to education research CS students do better (ironically even grade-wise) when they prioritize the former.</p>
         </li>
         <li>
           <p><a href="http://datastructur.es/sp17/materials/guides/study-guide.html">Studying for Exams, by Josh Hug</a></p>
