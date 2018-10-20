@@ -2,7 +2,7 @@
 layout: post
 title: "Welcome to CSE 152!"
 date: 2018-09-07 01:01:01
-categories: [lab, notes, section, other]
+categories: [notes, section, other]
 image:
   feature: https://upload.wikimedia.org/wikipedia/en/thumb/f/f3/UCSD-Warren_Pano.jpg/2880px-UCSD-Warren_Pano.jpg
   credit: Wikipedia
