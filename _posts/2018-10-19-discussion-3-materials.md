@@ -14,6 +14,6 @@ quarter: fa18
 
 Here are the slides and worksheet from today's discussion. (Solutions coming soon.)
 
-<a href="{{ site.url }}/slides/fa18/filt_freq_basics.pdf" class="btn btn-warning" style="line-height: 1.2; padding: 8px 10px; margin-bottom: 5px">Slides (v2)</a>
+<a href="{{ site.url }}/slides/fa18/filt_freq_basics.pdf" class="btn btn-warning" style="line-height: 1.2; padding: 8px 10px; margin-bottom: 5px">Slides (v3)</a>
 <a href="{{ site.url }}/worksheets/fa18/cse152_sec3.pdf" class="btn btn-warning" style="line-height: 1.2; padding: 8px 10px; margin-bottom: 5px">Worksheet (v2)</a>
-&nbsp;&nbsp; <em>last updated 10/19/18 10:51am California time</em>
+&nbsp;&nbsp; <em>last updated 10/23/18 11:07pm California time</em>
