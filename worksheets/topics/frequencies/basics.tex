@@ -2,6 +2,8 @@
 \question Say you have a linear filter in the form of a convolution kernel. How can you apply your filter to an image in frequency space? Why might it be advantageous to do so?
 
 \begin{solution}[0.75in]
-{\color{red} TBA}
+Zero-pad the filter (or the image, if it is smaller) to make the filter and the image the same shape. Use the fast Fourier transform (FFT) to convert the filter and image into their frequency representations. Perform an elementwise multiplication between these frequency representations. Convert the result back into the spatial domain using the inverse FFT.
+
+The main reason to filter in frequency space is efficiency. A sliding-window convolution is $O((\text{image size}) \cdot (\text{filter size}))$. A frequency-space convolution is $O(n\log n)$, where $n = \max{\{(\text{image size}), (\text{filter size})\}}$. If the filter size is greater than the log of the image size, filtering in frequency space is probably faster.
 \end{solution}
 \end{blocksection}
