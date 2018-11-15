@@ -176,6 +176,9 @@
 .scroll-inner {
   max-width: 76rem;
 }
+.scroll-inner#index, #inner-interact {
+  max-width: 59rem !important;
+}
 #course-roadmap {
   min-height: 480px;
 }

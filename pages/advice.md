@@ -46,22 +46,4 @@ _My first advice: take all of my advice with a grain of salt._
       </ul>
     </div>
   </div>
-  <div class="row">
-    <div class="col l5">
-      <h3 id="falling-asleep">Falling Asleep*</h3>
-      <ul class="bullets-unless-mobile">
-        <li>
-          <p>You've probably heard about tiring yourself out during the day (exercise! and I do advocate for this because it does work – physical exhaustion is powerful), but have you heard about tiring out your <em>eyes</em> specifically? Because once upon a time somebody presented me with this bizarre-sounding advice. You may wonder what this person meant by "tiring out your eyes." I'll tell you: he meant "blinking a lot." I can't say I have observed any positive result from this, but I thought it was funny and who knows? – maybe it will help you.</p>
-        </li>
-        <li>
-          <p>In my experience, pre-sleep reading increases drowsiness. Just avoid anything too thrilling.</p>
-        </li>
-        <li>
-          <p><a href="https://www.tuck.com/sleep-hygiene/">Sleep Hygiene, by Tuck</a></p>
-        </li>
-      </ul>
-    </div>
-  </div>
 </div>
-
-<p>* not to be applied during CSE 152</p>
