@@ -1,0 +1,20 @@
+other results from epipolar geometry
+------------------------------------
+
+1. the fundamental matrix is rank 2 because it maps a projective plane
+   to a projective line (aka pencil of lines), meaning there is a loss of one dimension
+
+2. the fundamental matrix has 7 DOF
+   because of homogeneous coordinates (-1 DOF) and the fact that the rank is 2 (-1 DOF)
+
+3. the skew-symmetric matrix Tx arises b/c of a cross product between t and another vector,
+   and is simply the matrix formulation of a cross product
+   
+4. the epipolar line equation is given by the epipolar constraint according to grouping,
+   e.g. if we have p, the epipolar line equation in image 2 is (x)^T (Fp) = 0
+
+5. you can define R, t to be the transformation from camera 1's frame to camera 2's frame
+   OR from camera 2's frame to camera 1's frame – both result in the same epipolar constraint
+
+6. the reason we have to do SVD(W) or eigendecomposition(W^TW)
+   is because we're solving Wf = 0, and standard least squares would just give a solution of 0
