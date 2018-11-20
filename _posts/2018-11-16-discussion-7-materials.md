@@ -9,6 +9,6 @@ quarter: fa18
 
 Here are the slides from today's discussion, and a brief derivation of the epipolar constraint.
 
-<a href="{{ site.url }}/slides/fa18/hw3_overview.pdf"  class="btn btn-warning post-btn-link">Slides (v3)</a>
+<a href="{{ site.url }}/slides/fa18/hw3_overview.pdf"  class="btn btn-warning post-btn-link">Slides (v4)</a>
 <a href="{{ site.url }}/notes/fa18/fundamental_ec.pdf" class="btn btn-warning post-btn-link">Epipolar Constraint Derivation (v1)</a>
-<span class="desktop-hide"><br /></span><span class="mobile-hide">&nbsp;&nbsp;</span> <em>last updated 11/16/18 6:42pm California time</em>
+<span class="desktop-hide"><br /></span><span class="mobile-hide">&nbsp;&nbsp;</span> <em>last updated 11/20/18 1:42am California time</em>
