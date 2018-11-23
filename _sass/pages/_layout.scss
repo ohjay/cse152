@@ -183,7 +183,27 @@
   min-height: 480px;
 }
 .post-btn-link {
+  display: inline-block;
   line-height: 1.2;
   padding: 8px 10px;
   margin-bottom: 5px;
+  font-size: 0.875em;
+  font-family: $font-family-base;
+  font-weight: 700;
+  border-width: 2px !important;
+  border-style: solid !important;
+  text-decoration: none !important;
+  border-radius: 5px;
+  background-color: $warning;
+  color: $white;
+  border-color: $warning;
+  &:visited {
+    color: $white;
+    border-color: $warning;
+  }
+  &:hover {
+    background-color: $white;
+    color: $warning;
+    border-color: $warning;
+  }
 }

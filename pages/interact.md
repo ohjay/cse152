@@ -7,7 +7,7 @@ permalink: /interact/
 <div id="inner-interact">
   <p>I would like to encourage interactivity. There are several ways you can engage...</p>
 
-  <h4 id="commenting-on-posts">Commenting on posts</h4>
+  <h4 id="commenting-on-posts" style="margin-top: 2rem">Commenting on posts</h4>
 
   <p>Please comment on these posts if you are confused or have anything to say! I would love to see (among many other things) questions, alternative explanations, or block texts decrying my lack of coherency. For tips on making good comments, see <a href="https://cs184.eecs.berkeley.edu/article/5">here</a>.</p>
 
@@ -27,7 +27,7 @@ permalink: /interact/
   </div>
   <!-- End mc_embed_signup -->
 
-  <h4 id="teaching-the-material">Teaching the material</h4>
+  <h4 id="teaching-the-material" style="margin-top: 2rem">Teaching the material</h4>
 
   <p>In the words of the theoretical computer scientist Christos Papadimitriou, "teaching is the only way I know to understand something." I think there's a lot of truth to that statement. If you want to get a really good grasp on something, you should try teaching it – summarize the importance, the main ideas, the math, etc. This should make the concept much clearer in your head, and you might even encounter cracks in your understanding that you can fix.</p>
 
@@ -43,7 +43,7 @@ permalink: /interact/
 
   <p><em>Tips on giving a presentation</em>: check out <a href="https://d1b10bmlvqabco.cloudfront.net/attach/jcirbunfsor3sh/i54riyaslsX/jgvhcnsbmjkb/GiveAGoodTalk.pdf">these slides by Antonio Torralba</a>, or <a href="https://www.cc.gatech.edu/~parikh/citizenofcvpr/static/slides/grauman_preparing_clear_talks.pdf">these by Kristen Grauman</a>.</p>
 
-  <h4 id="office-hours">Office hours</h4>
+  <h4 id="office-hours" style="margin-top: 2rem">Office hours</h4>
 
   <p>If there's anything else you'd like to talk about, you can visit me in office hours.</p>
 </div>
