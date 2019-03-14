@@ -4,7 +4,7 @@
 }
 
 body {
-  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'PT Sans', sans-serif;
   padding: 20px;
   margin-left: 1%;
 }
@@ -63,7 +63,7 @@ a.active {
 
 h2 {
   color: #c69214;
-  font-weight: 700;
+  font-weight: 400;
 }
 
 #classnum {
@@ -90,7 +90,7 @@ h2 {
 
 #rights {
   color: #6e963b;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 .clampright {
@@ -124,8 +124,4 @@ tr td:nth-child(3), tr th:nth-child(3) {
 tr td:nth-child(4), tr th:nth-child(4) {
   text-align: right;
   width: 10%;
-}
-
-.specialfont {
-  font-family: 'PT Sans', sans-serif;
 }
