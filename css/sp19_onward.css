@@ -10,7 +10,7 @@ body {
 }
 
 th, td {
-  padding: 5px 15px;
+  padding: 10px 14px;
 }
 
 li {
@@ -61,17 +61,22 @@ a.active {
   text-decoration: underline;
 }
 
+h2 {
+  color: #c69214;
+  font-weight: 700;
+}
+
 #classnum {
   color: #f36170;
-  font-size: 1em;
+  font-size: 1.2em;
   text-transform: lowercase;
-  font-weight: bold;
+  font-weight: 600;
   text-align: right;
 }
 
 #classname {
   color: #006a96;
-  font-size: 0.5em;
+  font-size: 0.6em;
   font-weight: 700;
   text-transform: uppercase;
   margin: -5px auto 10px;
@@ -79,8 +84,13 @@ a.active {
 }
 
 #classqua {
-  font-size: 0.5em;
+  font-size: 0.6em;
   text-align: right;
+}
+
+#rights {
+  color: #6e963b;
+  font-weight: 600;
 }
 
 .clampright {
@@ -92,9 +102,9 @@ table {
   border-collapse: collapse;
 }
 
-tr {
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
+th, td {
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
 }
 
 tr td:nth-child(1), tr th:nth-child(1) {
@@ -114,4 +124,8 @@ tr td:nth-child(3), tr th:nth-child(3) {
 tr td:nth-child(4), tr th:nth-child(4) {
   text-align: right;
   width: 10%;
+}
+
+.specialfont {
+  font-family: 'PT Sans', sans-serif;
 }
