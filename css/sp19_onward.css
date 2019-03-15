@@ -113,12 +113,12 @@ tr td:nth-child(1), tr th:nth-child(1) {
 }
 
 tr td:nth-child(2), tr th:nth-child(2) {
-  width: 25%;
+  width: 23%;
 }
 
 tr td:nth-child(3), tr th:nth-child(3) {
   text-align: left;
-  width: 55%;
+  width: 57%;
 }
 
 tr td:nth-child(4), tr th:nth-child(4) {
