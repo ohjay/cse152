@@ -2,6 +2,7 @@
 layout: page
 title: Interact
 permalink: /interact/
+sidebar: true
 ---
 
 <div id="inner-interact">

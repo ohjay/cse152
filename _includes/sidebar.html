@@ -2,14 +2,14 @@
   {% if site.avatar %}
   <img src="{{ site.url }}/img/{{ site.avatar }}" alt="" class="avatar">
   {% endif %}
-  <a href="{{ site.url }}/" class="author_name">{{ site.title }}</a>
+  <a href="{{ site.url }}/fa18" class="author_name">{{ site.title }}</a>
   <span class="author_job">{{ site.tagline }}</span>
   <span class="author_bio mbm">{{ site.sidebar-desc }}</span>
   <nav class="nav">
     <ul class="nav-list">
       <li class="nav-item">
         <a href="{{ site.url }}/fa18/" {% if page.url == "/fa18/" %}class="active"{% endif %}>home</a>
-      {% for node in site.pages %} {% if node.title %}
+      {% for node in site.pages %} {% if node.title and node.sidebar %}
         <span>/</span>
       </li>
       <li class="nav-item">

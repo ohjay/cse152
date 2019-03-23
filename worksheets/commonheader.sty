@@ -57,9 +57,6 @@
 \newcommand{\semester}[1]{\newcommand{\sem}{#1}}
 \newcommand{\stafflist}[1]{\newcommand{\staff}{#1}}
 
-% Modify as necessary
-\semester{Fall 2018}
-
 \setlength{\marginparwidth}{1.2in}
 \let\oldmarginpar\marginpar
 \renewcommand{\marginpar}[1]{\-\oldmarginpar[\raggedleft\footnotesize #1]%
@@ -84,7 +81,7 @@
 \runningheadrule
 \runningheader{\sc Discussion \discnum: \disctitle}{}{Page \thepage}
 \runningfootrule
-\runningfooter{\small \hspace*{\fill} CSE 152 \sem~$\cdot$~\textit{Owen}}{}{} % modify as necessary
+\runningfooter{\small \hspace*{\fill} CSE 152 \sem\ifdefined\staff~$\cdot$~\textit{\staff}\fi}{}{}
 
 \titleformat{\section}[hang]{\sffamily \bfseries}
 {\fontsize{15}{25} \color{titlecol} \selectfont \thesection}{10pt}

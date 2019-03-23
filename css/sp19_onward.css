@@ -25,19 +25,14 @@ blockquote {
   padding-left: 1.5rem;
 }
 
-ol, ul.bq {
+#wrapper > ol, #wrapper > ul.bq {
   margin-left: 40px;
   padding-left: 3rem;
 }
 
-blockquote, ol, ul.bq {
+blockquote, #wrapper > ol, #wrapper > ul.bq {
   border-left: 5px solid #64b5f6;
-  font-family: 'Fira Mono', monospace;
-  font-size: 85%;
-}
-
-ol.bq > li, ul.bq > li {
-  margin-bottom: 10px;
+  font-size: 90%;
 }
 
 a {
@@ -50,15 +45,15 @@ a:hover {
   color: #3366ff;
 }
 
+a.active {
+  text-decoration: underline;
+}
+
 @media screen and (min-width: 675px) {
   #wrapper {
     width: 650px;
     margin: 0 auto;
   }
-}
-
-a.active {
-  text-decoration: underline;
 }
 
 h2 {

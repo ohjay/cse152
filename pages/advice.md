@@ -2,6 +2,7 @@
 layout: page
 title: Advice
 permalink: /advice/
+sidebar: true
 ---
 
 _My first advice: take all of my advice with a grain of salt._

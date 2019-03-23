@@ -4,9 +4,9 @@ title: "Welcome to CSE 152!"
 date: 2018-09-07 01:01:01
 categories: [notes, section, other]
 image:
-  feature: https://upload.wikimedia.org/wikipedia/en/thumb/f/f3/UCSD-Warren_Pano.jpg/2880px-UCSD-Warren_Pano.jpg
-  credit: Wikipedia
-  creditlink: https://upload.wikimedia.org/wikipedia/en/thumb/f/f3/UCSD-Warren_Pano.jpg/2880px-UCSD-Warren_Pano.jpg
+  feature: warren_pano.jpg
+  credit: Znode
+  creditlink: https://en.wikipedia.org/wiki/University_of_California,_San_Diego#/media/File:UCSD-Warren_Pano.jpg
 comments: true
 quarter: fa18
 ---

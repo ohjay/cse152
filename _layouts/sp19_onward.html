@@ -8,7 +8,7 @@
   <meta name="author" content="{{ site.title }}">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="theme-color" content="#f5f5f5">
-  <title>CSE 152</title>
+  <title>{% if page.title %}{{ page.title }} | {% endif %}CSE 152</title>
 
   <!-- CSS files -->
   <link rel="stylesheet" href="{{ site.url }}/css/sp19_onward.css">
@@ -25,9 +25,9 @@
       <div id="classnum">CSE 152</div>
       <div id="classname">Introduction to Computer Vision</div>
       <div id="classqua">
-        <a href="{{ site.url }}/" {% if page.url == "/" %}class="active"{% endif %}>Spring 2019</a>
+        <a href="{{ site.url }}/" {% if page.quarter == "sp19" %}class="active"{% endif %}>Spring 2019</a>
         <span>/</span>
-        <a href="fa18">Fall 2018</a>
+        <a href="{{ site.url }}/fa18">Fall 2018</a>
       </div>
     </h1>
     
