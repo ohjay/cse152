@@ -15,7 +15,7 @@ As the title says, welcome to CSE 152!
 
 <hr />
 
-Looking forward to publishing lots of computer vision learning materials on this website. I'll make a post whenever there's new content to share, such as notes, videos, and other resources for the class. For your convenience, all of the posts will be aggregated and organized on the [Resources](https://owenjow.xyz/cse152/resources) page.
+Looking forward to publishing lots of computer vision learning materials on this website. I'll make a post whenever there's new content to share, such as notes, videos, or other resources for the class. For your convenience, all of the posts will be aggregated and organized on the [Resources](https://owenjow.xyz/cse152/resources) page.
 
 Here's to a nice fulfilling fall quarter! :)
 
