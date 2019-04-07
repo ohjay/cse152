@@ -112,17 +112,17 @@ tr td:nth-child(1), tr th:nth-child(1) {
 }
 
 tr td:nth-child(2), tr th:nth-child(2) {
-  width: 23%;
+  width: 13%;
 }
 
 tr td:nth-child(3), tr th:nth-child(3) {
   text-align: left;
-  width: 57%;
+  width: 47%;
 }
 
 tr td:nth-child(4), tr th:nth-child(4) {
   text-align: right;
-  width: 10%;
+  width: 30%;
 }
 
 @media screen and (max-width: 674px) {
@@ -130,6 +130,6 @@ tr td:nth-child(4), tr th:nth-child(4) {
     width: 5%;
   }
   tr td:nth-child(3), tr th:nth-child(3) {
-    width: 75%;
+    width: 55%;
   }
 }
