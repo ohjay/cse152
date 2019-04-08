@@ -1,0 +1,9 @@
+External Resources
+------------------
+
+Linear Algebra Review and Reference
+- http://cs229.stanford.edu/section/cs229-linalg.pdf
+
+Projective Geometry
+- Making sense of the "lines in space" interpretation:
+  https://www.math.toronto.edu/mathnet/questionCorner/projective.html
