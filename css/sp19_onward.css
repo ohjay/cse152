@@ -53,6 +53,12 @@ a.active {
   text-decoration: underline;
 }
 
+a.inactive {
+  pointer-events: none;
+  cursor: default;
+  opacity: 0.3;
+}
+
 @media screen and (min-width: 675px) {
   #wrapper {
     width: 650px;

@@ -1,0 +1,29 @@
+\begin{blocksection}
+\question We can express a line in 3D as
+$$
+\begin{bmatrix}X \\ Y \\ Z\end{bmatrix} =
+\begin{bmatrix}O_x \\ O_y \\ O_z\end{bmatrix} +
+\lambda \begin{bmatrix}D_x \\ D_y \\ D_z\end{bmatrix}$$
+where $O$ is a point on the line and $D$ is the direction of the line.
+
+As we've learned, perspective projection can take 3D points at infinity (which are at the ``ends" of 3D lines) to finite 2D {\bf vanishing points}. What is the vanishing point $(x, y)$ associated with the form of the line given above? {\it Hint: compute the perspective projection of the line and take the limit as $\lambda$ goes to infinity.}
+
+\begin{solution}[0.75in]
+\begin{align*}
+\begin{bmatrix}x \\ y\end{bmatrix} &=
+\lim_{\lambda \rightarrow \infty}
+\begin{bmatrix}-\frac{f(O_x + \lambda D_x)}{O_z + \lambda D_z} \\[6pt] -\frac{f(O_y + \lambda D_y)}{O_z + \lambda D_z}\end{bmatrix} \\
+&= \begin{bmatrix}-\frac{fD_x}{D_z} \\[6pt] -\frac{fD_y}{D_z}\end{bmatrix}~\text{(L'Hopital's)}
+\end{align*}
+\end{solution}
+\end{blocksection}
+
+%%%
+
+\begin{blocksection}
+\question Based on your answer to the previous question, how can you tell if two lines have the same vanishing point if you are only given the $O$ and $D$ vectors for each line?
+
+\begin{solution}[0.75in]
+If the directions of the lines are the same (up to scale), the lines have the same vanishing point. If their directions aren't the same, they don't.
+\end{solution}
+\end{blocksection}
