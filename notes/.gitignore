@@ -11,3 +11,4 @@
 *.toc
 *.synctex.gz(busy)
 *.png
+!normalized_coords.png
