@@ -7,3 +7,8 @@ Linear Algebra Review and Reference
 Projective Geometry
 - Making sense of the "lines in space" interpretation:
   https://www.math.toronto.edu/mathnet/questionCorner/projective.html
+
+Fourier
+- https://homepages.inf.ed.ac.uk/rbf/HIPR2/fourier.htm
+- http://cns-alumni.bu.edu/~slehar/fourier/fourier.html
+- https://www.cs.toronto.edu/~guerzhoy/320/lec/FreqDomain.pdf
