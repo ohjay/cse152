@@ -5,6 +5,7 @@
   text-align: center;
   width: 100%;
   min-height: 400px;
+  height: 0;  /* for Firefox */
   padding: 30px 15px 20px;
   z-index: 1;
   @include media-query($small-screen) {
